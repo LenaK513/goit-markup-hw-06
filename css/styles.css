@@ -743,7 +743,6 @@ img {
 }
 /* ****SUBMIT BLOCK***** */
 input {
-  border: none;
   padding: 0;
   margin: 0;
 }
@@ -803,6 +802,81 @@ input {
 .submit-svg {
   margin-left: 10px;
 }
+/* **********MODAL WINDOW WITH INFORMATION*********** */
+.modal-window {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.modal-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.modal-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.label-field .modal-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100px);
+}
+
+.label-field {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--second-text-color);
+  margin-bottom: 4px;
+}
+
+.feedback {
+  display: block;
+}
+
+.textarea-field {
+  margin-bottom: 20px;
+}
+
+.feedback-part {
+  margin-top: 4px;
+}
+
+.feedback-part textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+}
+
+.checkbox-field {
+  margin-bottom: 30px;
+}
+
+.btn-field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* *********************SECTION BACKDROP************************ */
 
 .backdrop {
