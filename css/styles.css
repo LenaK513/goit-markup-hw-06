@@ -825,14 +825,18 @@ input {
 .modal-field {
   display: flex;
   flex-direction: column;
+
   margin-bottom: 10px;
-  position: relative;
 }
 
+.input-field {
+  position: relative;
+  width: 100%;
+}
 .modal-svg {
   position: absolute;
 
-  top: -50%;
+  top: 0;
   left: 0;
 }
 
