@@ -829,11 +829,11 @@ input {
   position: relative;
 }
 
-.label-field .modal-svg {
+.modal-svg {
   position: absolute;
-  top: 0;
+
+  top: -50%;
   left: 0;
-  transform: translateY(-100px);
 }
 
 .label-field {
