@@ -825,12 +825,11 @@ input {
 .modal-field {
   display: flex;
   flex-direction: column;
-
+  position: relative;
   margin-bottom: 10px;
 }
 
 .input-field {
-  position: relative;
   width: 100%;
 }
 .modal-svg {
