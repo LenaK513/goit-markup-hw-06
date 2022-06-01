@@ -805,11 +805,11 @@ input {
   fill: var(--add-text-color);
 }
 /* **********MODAL WINDOW WITH INFORMATION*********** */
-.modal-window {
+/* .modal-window {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-}
+  padding: 40px;
+} */
 
 .modal-title {
   font-family: "Roboto";
@@ -943,6 +943,10 @@ textarea {
   border-color: var(--nav-color);
 }
 
+.checkbox-input:focus + .checkbox-svg {
+  border-color: var(--nav-color);
+}
+
 .btn-field {
   display: block;
   margin-left: auto;
@@ -979,6 +983,7 @@ textarea {
   height: 581px;
   background-color: var(--add-text-color);
   opacity: 1;
+  padding: 40px;
 }
 
 .modal-button {
@@ -986,7 +991,8 @@ textarea {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 0;
+  right: 8px;
+  top: 8px;
   padding: 0;
   margin: 0;
   background-color: #fff;
@@ -995,8 +1001,8 @@ textarea {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  margin-right: 8px;
-  margin-top: 8px;
+  /* margin-right: 8px;
+  margin-top: 8px; */
 }
 
 .modal-icon {
